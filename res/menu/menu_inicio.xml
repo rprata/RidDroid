@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/clear"
+          android:icon="@drawable/ic_menu_clear_playlist"
+          android:title="Limpar Histórico" />
+    <item android:id="@+id/about"
+          android:icon="@drawable/ic_menu_allfriends"
+          android:title="Sobre" />
+    <item android:id="@+id/exit"
+          android:icon="@drawable/ic_menu_close_clear_cancel"
+          android:title="Sair" />
+          
+</menu>

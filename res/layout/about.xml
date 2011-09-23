@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:id="@+id/titulo" android:text="Sobre"
+		android:textSize="30dip" android:textStyle="bold"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:gravity="center" android:layout_marginTop="20dip" />
+	<ScrollView android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:id="@+id/scrollView">
+		<LinearLayout android:id="@+id/linearLayout"
+			android:orientation="vertical" android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+				<TextView android:id= "@+id/versao"
+				android:text="Aluno Mobile v1.0" android:gravity="center"
+				android:textSize="17dip" android:textStyle="bold"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_marginTop="15dip" />
+			<TextView android:id="@+id/sobre"
+				android:text="Desenvolvido por Renan Prata.
+Renan é estudante de graduação da Universidade do Estado do Rio de Janeiro. Cursa Engenharia da Computação e tem interesses em sistemas embarcados, software livre e na área de controle e automação"
+				android:textSize="17dip" android:textStyle="bold"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_marginTop="20dip" />
+			<TextView android:id="@+id/contato" android:text="Contato: renancprata@gmail.com"
+				android:textSize="17dip" android:textStyle="bold"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_marginTop="15dip" />
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>
