@@ -45,13 +45,14 @@ public final class R {
     }
     public static final class layout {
         public static final int about=0x7f030000;
-        public static final int historicotab=0x7f030001;
-        public static final int list_item=0x7f030002;
-        public static final int notastab=0x7f030003;
-        public static final int ridpage=0x7f030004;
-        public static final int ridtab=0x7f030005;
-        public static final int tab=0x7f030006;
-        public static final int tabs_bg=0x7f030007;
+        public static final int disciplinastab=0x7f030001;
+        public static final int historicotab=0x7f030002;
+        public static final int list_item=0x7f030003;
+        public static final int notastab=0x7f030004;
+        public static final int ridpage=0x7f030005;
+        public static final int ridtab=0x7f030006;
+        public static final int tab=0x7f030007;
+        public static final int tabs_bg=0x7f030008;
     }
     public static final class menu {
         public static final int menu_inicio=0x7f050000;

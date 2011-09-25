@@ -67,6 +67,10 @@ public class PostRid {
 	    return "http://www.alunoonline.uerj.br/notasdoperiododoaluno/notasparciais.php";
 	}
 	
+	public String getUrlDisciplinas(){
+	    return "http://www.alunoonline.uerj.br/disemcur/disemcur.php";
+	}
+	
 	public byte[] postData(){
 		String postData = "lixo="+this.matricula+"&matricula="+this.matricula+"&nome="+this.nome;
 	    return EncodingUtils.getBytes(postData, "BASE64");

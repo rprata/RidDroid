@@ -26,16 +26,20 @@ public class RidMobileTab extends TabActivity{
 		spec = tabHost.newTabSpec("rid").setIndicator(rid).setContent(intent);
 		tabHost.addTab(spec);
 
-		intent = new Intent().setClass(this, NotasTabActivity.class);
-		View notas = createTabView(this, "Notas do Período");
-		spec = tabHost.newTabSpec("notas").setIndicator(notas).setContent(intent);
+		intent = new Intent().setClass(this, DisciplinasTabActivity.class);
+		View disciplinas = createTabView(this, "Disciplinas em Curso");
+		spec = tabHost.newTabSpec("disciplinas").setIndicator(disciplinas).setContent(intent);
 		tabHost.addTab(spec);
 
 		intent = new Intent().setClass(this, HistoricoTabActivity.class);
 		View historico = createTabView(this, "Histórico");
 		spec = tabHost.newTabSpec("historico").setIndicator(historico).setContent(intent);
 		tabHost.addTab(spec);
-
+		
+		intent = new Intent().setClass(this, NotasTabActivity.class);
+		View notas = createTabView(this, "Notas do Período");
+		spec = tabHost.newTabSpec("notas").setIndicator(notas).setContent(intent);
+		tabHost.addTab(spec);
 
 		tabHost.setCurrentTab(0);
 

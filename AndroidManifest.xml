@@ -11,11 +11,15 @@
 		</activity>
 		<activity android:name=".NotasTabActivity" android:label="Aluno Mobile">	
 		</activity>
+		<activity android:name=".DisciplinasTabActivity" android:label="Aluno Mobile">	
+		</activity>
 		<activity android:name=".RidPageActivity" android:label="Aluno Mobile">
 		</activity>
 		<activity android:name=".HistoricoPageActivity" android:label="Aluno Mobile">	
 		</activity>
 		<activity android:name=".NotasPageActivity" android:label="Aluno Mobile">	
+		</activity>
+		<activity android:name=".DiscplinasPageActivity" android:label="Aluno Mobile">	
 		</activity>
 		<activity android:name=".AboutActivity" android:label="Aluno Mobile">	
 		</activity>
